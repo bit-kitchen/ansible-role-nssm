@@ -1,2 +1,4 @@
 ---
-# tasks file for nssm
+- name: Install nssm
+  win_chocolatey:
+    name: nssm
