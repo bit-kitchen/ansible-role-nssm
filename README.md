@@ -1,7 +1,12 @@
 ansible-role-nssm
 =================
 
-Install nssm, satisfying requirements of win_nssm.
+[![Ansible Role: bit_kitchen.nssm](https://img.shields.io/ansible/role/46872.svg)](https://galaxy.ansible.com/bit_kitchen/nssm)
+[![Build Status](https://travis-ci.org/bit-kitchen/ansible-role-nssm.svg?branch=master)](https://travis-ci.org/bit-kitchen/ansible-role-nssm)
+
+Install [nssm](https://nssm.cc/), satisfying requirements of [win_nssm](https://docs.ansible.com/ansible/latest/modules/win_nssm_module.html).
+
+    ansible-galaxy install bit_kitchen.nssm
 
 Requirements
 ------------
@@ -28,7 +33,7 @@ Example Playbook
 License
 -------
 
-MIT
+[MIT](LICENSE)
 
 Author Information
 ------------------
