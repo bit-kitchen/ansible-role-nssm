@@ -2,3 +2,6 @@
 - name: Install nssm
   win_chocolatey:
     name: nssm
+  when: >
+    ansible_os_family == 'Windows'
+    or ansible_os_family.startswith('CYGWIN')

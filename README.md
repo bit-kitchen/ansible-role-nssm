@@ -6,6 +6,8 @@ ansible-role-nssm
 
 Install [nssm](https://nssm.cc/), satisfying requirements of [win_nssm](https://docs.ansible.com/ansible/latest/modules/win_nssm_module.html).
 
+This role will do nothing on Linux, so that it can be depended on by roles compatible with both Linux and Windows.
+
     ansible-galaxy install bit_kitchen.nssm
 
 Requirements
