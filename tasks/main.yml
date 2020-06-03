@@ -1,5 +1,5 @@
 ---
-- name: Install nssm
+- name: Install nssm for Windows
   win_chocolatey:
     name: nssm
   when: >
